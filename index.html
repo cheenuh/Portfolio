@@ -12,6 +12,7 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 
 
@@ -44,38 +45,32 @@
     <header class="masthead">
         <div class="container">
             <div class="masthead-subheading">Welcome To My Portfolio</div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#home-page">Know More About Me</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#about-page">Know More About Me</a>
         </div>
     </header>
 
 
     <!-- Home Page-->
     <section class="page-section" id="home-page">
-
         <div class="container">
             <div class="text-center">
-                <div><img src="assets/img/Homepage.png" style="float:left"></div>
-                <h2 class="section-heading text-uppercase">Home</h2>
-                <h3 class="section-subheading text-muted">Welcome to Cheena Maxine Silva's Portfolio! This is the home
-                    page</h3>
             </div>
-            <div>
 
-                <h4 class="my-3">Hello There!</h4>
-                <p class="text-muted">Welcome to my website. I'm delighted to have you here. <br> If you have any
-                    queries, feel free to reach out. <br> Enjoy exploring!</p>
-            </div>
-        </div>
+            <div class="text-center"><img src="assets/img/Homepage.png" style="float:inline-start"></div>
         </div>
     </section>
-
+    <section>
+        <div style="float:inherit">
+            <h4>Hello There!</h4>
+            <p class="text-muted">Welcome to my website. I'm delighted to have you here. <br> If you have any
+                queries, feel free to reach out. <br> Enjoy exploring!</p>
+        </div>
+    </section>
     <!-- About Page -->
     <section class="page-section bg-light" id="about-page">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">About Me</h2>
-                <h3 class="section-subheading text-muted">In this page, you can see everything about me including my
-                    hobbies and talents.</h3>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
@@ -141,6 +136,8 @@
         </div>
         </div>
 
+
+        <!--Timeline-->
         <div class="text-center">
             <h2>Educational Background</h2>
         </div>
@@ -167,10 +164,43 @@
             <div class="text-wrapper right">
                 <div class="content">
                     <h3>College</h3>
-                    <p>Holy Angel University<br>BSIT Major in Web Development<br>2021-Present </p>
+                    <p>Holy Angel University<br>BSIT Major in Web Development<br> 2021-Present </p>
                 </div>
             </div>
+        </div><br>
+
+        <!--Skills-->
+        <div class="text-center">
+            <h2>My Skills</h2>
         </div>
+        <h3>HTML</h3>
+        <div class="skill-container">
+            <div class="skills html">90%</div>
+        </div>
+
+        <h3>CSS</h3>
+        <div class="skill-container">
+            <div class="skills css">80%</div>
+        </div>
+        <h3>Python</h3>
+        <div class="skill-container">
+            <div class="skills python">40%</div>
+        </div>
+        <h3>Java</h3>
+        <div class="skill-container">
+            <div class="skills java">30%</div>
+        </div>
+        <h3>JavaScript</h3>
+        <div class="skill-container">
+            <div class="skills js">5%</div>
+        </div>
+
+        <h3>PHP</h3>
+        <div class="skill-container">
+            <div class="skills php">5%</div>
+        </div>
+
+
     </section>
 
     <!-- Certificates -->
@@ -201,7 +231,11 @@
                     <h4>Google Developer Student Clubs</h4>
                     <p class="text-muted">Membership Badge</p>
                 </div>
-                <!-- Add more grid items as needed -->
+                <div class="grid-item">
+                    <img src="assets/img/cert/5.jpeg" alt="Google Developer Student Clubs">
+                    <h4>Red Hat Academy</h4>
+                    <p class="text-muted">Certificate of Attendance</p>
+                </div>
             </div>
         </div>
     </section>
