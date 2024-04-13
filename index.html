@@ -2,290 +2,381 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Cheena's Portfolio</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Cheena's Potfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="40">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.png" alt="Logo"
+            <a class="logo" href="#page-top"><img src="assets/imgs/logo.png" alt="Logo"
                     style="width: 200px; height: auto;" /></a>
-
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#home-page">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about-page">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#certificate-page">Certificate</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#output-page">Outputs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#certificate">Certificate</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#outputs">Outputs</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
         </div>
-    </nav>
+    </nav><!-- End of Page Navbar -->
 
-    <!-- Header -->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading">Welcome To My Portfolio</div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#about-page">Know More About Me</a>
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">Welcome to My Portfolio</span>
+            </h1>
+            <p class="header-subtitle">WEB DESIGNER</p>
+
+            <button class="btn btn-primary">Visit My Works</button>
         </div>
-    </header>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/Homepage.png" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Welcome to my website. I'm delighted to have you here. <br> If you have any
+                        queries, feel free to reach out. <br> Enjoy exploring!
+                    </p>
+                    <a href="assets/Resume.png" download="Resume" target="_blank"
+                        class="btn-rounded btn btn-outline-primary mt-4">Resume</a>
 
 
-    <!-- Home Page-->
-    <section class="page-section" id="home-page">
-        <div class="container">
-            <div class="text-center">
-            </div>
-
-            <div class="text-center"><img src="assets/img/Homepage.png" style="float:inline-start"></div>
-        </div>
-    </section>
-    <section>
-        <div style="float:inherit">
-            <h4>Hello There!</h4>
-            <p class="text-muted">Welcome to my website. I'm delighted to have you here. <br> If you have any
-                queries, feel free to reach out. <br> Enjoy exploring!</p>
-        </div>
-    </section>
-    <!-- About Page -->
-    <section class="page-section bg-light" id="about-page">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">About Me</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- About item 1-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#aboutModal1">
-                            <div class="portfolio-hover">
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+        <!-- About Page -->
+        <section class="page-section bg-light" id="about-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- About item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#aboutModal1">
+                                <div class="portfolio-hover">
+                                </div>
+                                <img class="img-fluid" src="assets/portfolio/1.jpeg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Clarinet Player</div>
+                                <div class="portfolio-caption-subheading text-muted">Band 94 Pandacaqui</div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/1.jpeg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Clarinet Player</div>
-                            <div class="portfolio-caption-subheading text-muted">Band 94 Pandacaqui</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- About item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#aboutModal2">
+                                <div class="portfolio-hover">
+                                </div>
+                                <img class="img-fluid" src="assets/portfolio/2.jpeg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Modelling</div>
+                                <div class="portfolio-caption-subheading text-muted">This was taken at Clark
+                                    International
+                                    Airport</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- About item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#aboutModal3">
+                                <div class="portfolio-hover">
+
+                                </div>
+                                <img class="img-fluid" src="assets/portfolio/3.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Web Development Student</div>
+                                <div class="portfolio-caption-subheading text-muted">Ms. SOC 2022 | Dean's Lister First
+                                    Year
+                                    | Dean's Lister 3rd Year</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- About item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#aboutModal4">
+                                <div class="portfolio-hover">
+                                </div>
+                                <img class="img-fluid" src="assets/portfolio/4.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Volleyball Player</div>
+                                <div class="portfolio-caption-subheading text-muted">Played as a Libero</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- About item 2-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#aboutModal2">
-                            <div class="portfolio-hover">
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/2.jpeg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Modelling</div>
-                            <div class="portfolio-caption-subheading text-muted">This was taken at Clark International
-                                Airport</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- About item 3-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#aboutModal3">
-                            <div class="portfolio-hover">
-
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Web Development Student</div>
-                            <div class="portfolio-caption-subheading text-muted">Ms. SOC 2022 | Dean's Lister First Year
-                                | Dean's Lister 3rd Year</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <!-- About item 4-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#aboutModal4">
-                            <div class="portfolio-hover">
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Volleyball Player</div>
-                            <div class="portfolio-caption-subheading text-muted">Played as a Libero</div>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
-        </div>
-
-
-        <!--Timeline-->
-        <div class="text-center">
-            <h2>Educational Background</h2>
-        </div>
-        <div class="main">
-
-            <div class="text-wrapper left">
-                <div class="content">
-                    <h3>Elementary</h3>
-                    <p>Dee Hwa Liong College Foundation<br> 2010-2015 </p>
-                </div>
             </div>
-            <div class="text-wrapper right">
-                <div class="content">
-                    <h3>Junior High School</h3>
-                    <p>Angeles University Foundation-Integrated School<br> 2015-2019 </p>
-                </div>
-            </div>
-            <div class="text-wrapper left">
-                <div class="content">
-                    <h3>Senior High School</h3>
-                    <p>Angeles University Foundation-Integrated School<br> 2019-2021 </p>
-                </div>
-            </div>
-            <div class="text-wrapper right">
-                <div class="content">
-                    <h3>College</h3>
-                    <p>Holy Angel University<br>BSIT Major in Web Development<br> 2021-Present </p>
-                </div>
-            </div>
-        </div><br>
-
-        <!--Skills-->
-        <div class="text-center">
-            <h2>My Skills</h2>
-        </div>
-        <h3>HTML</h3>
-        <div class="skill-container">
-            <div class="skills html">90%</div>
-        </div>
-
-        <h3>CSS</h3>
-        <div class="skill-container">
-            <div class="skills css">80%</div>
-        </div>
-        <h3>Python</h3>
-        <div class="skill-container">
-            <div class="skills python">40%</div>
-        </div>
-        <h3>Dart</h3>
-        <div class="skill-container">
-            <div class="skills dart">35%</div>
-        </div>
-        <h3>Java</h3>
-        <div class="skill-container">
-            <div class="skills java">30%</div>
-        </div>
-        <h3>JavaScript</h3>
-        <div class="skill-container">
-            <div class="skills js">5%</div>
-        </div>
-
-        <h3>PHP</h3>
-        <div class="skill-container">
-            <div class="skills php">5%</div>
-        </div>
-
-
-    </section>
-
-    <!-- Certificates -->
-    <section class="page-section bg-light" id="certificate-page">
-        <div class="container">
+            <!--Timeline-->
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Certificates</h2>
-                <h3 class="section-subheading text-muted">These are the certificates related to my course.</h3>
+                <h2>Educational Background</h2>
             </div>
-            <div class="grid-container">
-                <div class="grid-item">
-                    <img src="assets/img/cert/1.jpg" alt="Code Geeks Webinar">
-                    <h4>Code Geeks</h4>
-                    <p class="text-muted">Webinar year 2022</p>
-                </div>
-                <div class="grid-item">
-                    <img src="assets/img/cert/2.jpg" alt="Linux Level 1">
-                    <h4>Linux</h4>
-                    <p class="text-muted">Level 1</p>
-                </div>
-                <div class="grid-item">
-                    <img src="assets/img/cert/3.jpg" alt="Linux Level 2">
-                    <h4>Linux</h4>
-                    <p class="text-muted">Level 2</p>
-                </div>
-                <div class="grid-item">
-                    <img src="assets/img/cert/4.jpg" alt="Google Developer Student Clubs">
-                    <h4>Google Developer Student Clubs</h4>
-                    <p class="text-muted">Membership Badge</p>
-                </div>
-                <div class="grid-item">
-                    <img src="assets/img/cert/5.jpeg" alt="Google Developer Student Clubs">
-                    <h4>Red Hat Academy</h4>
-                    <p class="text-muted">Certificate of Attendance</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="main">
 
-    <!-- Contact-->
-    <section class="contact-section" id="contact">
-        <div class="contact-item">
+                <div class="text-wrapper left">
+                    <div class="content">
+                        <h3>Elementary</h3>
+                        <p>Dee Hwa Liong College Foundation<br> 2010-2015 </p>
+                    </div>
+                </div>
+                <div class="text-wrapper right">
+                    <div class="content">
+                        <h3>Junior High School</h3>
+                        <p>Angeles University Foundation-Integrated School<br> 2015-2019 </p>
+                    </div>
+                </div>
+                <div class="text-wrapper left">
+                    <div class="content">
+                        <h3>Senior High School</h3>
+                        <p>Angeles University Foundation-Integrated School<br> 2019-2021 </p>
+                    </div>
+                </div>
+                <div class="text-wrapper right">
+                    <div class="content">
+                        <h3>College</h3>
+                        <p>Holy Angel University<br>BSIT Major in Web Development<br> 2021-Present </p>
+                    </div>
+                </div>
+            </div><br>
+
+            <!--Skills-->
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contact</h2>
-                <h3 class="section-subheading text-muted">Let's keep in touch.</h3>
+                <h2>My Skills</h2>
             </div>
-            <div class="grid-container">
-                <div class="contact-item">
-                    <a href="assets/img/contact/Resume.png" download="Resume">
-                        <img src="assets/img/contact/Resume.png" alt="Resume" style="width: 35%; height:auto">
-                        <h4>Resume</h4>
-                        <p class="text-muted">Click here to download</p>
-                </div>
-                <div class="contact-item">
-                    <a href="assets/img/contact/coverletter.png" download="Cover Letter">
-                        <img src="assets/img/contact/coverletter.png" alt="Cover Letter">
-                        <h4>Cover Letter</h4>
-                        <p class="text-muted">Click here to download</p>
-                </div>
-                <div class="contact-item">
-                    <a href="https://www.facebook.com/cheenang02">
-                        <img src="assets/img/contact/fbpage.png" alt="Facebook account" style="width:50%; height:auto">
-                        <h4>Facebook</h4>
-                </div>
+            <h3>HTML</h3>
+            <div class="skill-container">
+                <div class="skills html">90%</div>
+            </div>
 
+            <h3>CSS</h3>
+            <div class="skill-container">
+                <div class="skills css">80%</div>
             </div>
-        </div>
-    </section>
+            <h3>Python</h3>
+            <div class="skill-container">
+                <div class="skills python">40%</div>
+            </div>
+            <h3>Dart</h3>
+            <div class="skill-container">
+                <div class="skills dart">35%</div>
+            </div>
+            <h3>Java</h3>
+            <div class="skill-container">
+                <div class="skills java">30%</div>
+            </div>
+            <h3>JavaScript</h3>
+            <div class="skill-container">
+                <div class="skills js">5%</div>
+            </div>
+
+            <h3>PHP</h3>
+            <div class="skill-container">
+                <div class="skills php">20%</div>
+            </div>
+
+        </section> <!-- end of about section -->
+        <br><br>
+        <!-- Certificates -->
+        <section class="page-section bg-light" id="certificate">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Certificates</h2>
+                    <h3 class="section-subheading text-muted">These are the certificates related to my course.</h3>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <a href="#certificate" class="certificate"></a>
+                        <img src="assets/cert/1.jpg" alt="Code Geeks Webinar">
+                        <h4>Code Geeks</h4>
+                        <p class="text-muted">Webinar year 2022</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/cert/2.jpg" alt="Linux Level 1">
+                        <h4>Linux</h4>
+                        <p class="text-muted">Level 1</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/cert/3.jpg" alt="Linux Level 2">
+                        <h4>Linux</h4>
+                        <p class="text-muted">Level 2</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/cert/4.jpg" alt="Google Developer Student Clubs">
+                        <h4>Google Developer Student Clubs</h4>
+                        <p class="text-muted">Membership Badge</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="assets/cert/5.jpeg" alt="Google Developer Student Clubs">
+                        <h4>Red Hat Academy</h4>
+                        <p class="text-muted">Certificate of Attendance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio section -->
+        <section class="section" id="outputs">
+            <div class="container text-center">
+                <p class="section-subtitle">My Sample Outputs</p>
+                <h6 class="section-title mb-6">Portfolio</h6>
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="#outputs" class="portfolio-card">
+                            <img src="assets/outputs/1.png" class="portfolio-card-img"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Hidden Beauty</h5>
+                                        <p class="font-weight-normal">Booking Website</p>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="portfolio-card">
+                            <img class="portfolio-card-img" src="assets/outputs/2.png" class="img-responsive rounded"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Dacquil & Silva</h5>
+                                        <p class="font-weight-normal">Online Portfolio</p>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="portfolio-card">
+                            <img class="portfolio-card-img" src="assets/outputs/3.png" class="img-responsive rounded"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Musico</h5>
+                                        <p class="font-weight-normal">Wordpress</p>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div><!-- end of row -->
+            </div><!-- end of container -->
+
+        </section> <!-- end of portfolio section -->
+
+        <!-- section -->
+        <section class="section-sm bg-primary">
+            <!-- container -->
+            <div class="container text-center text-sm-left">
+                <!-- row -->
+                <div class="row align-items-center">
+                    <div class="col-sm offset-md-1 mb-4 mb-md-0">
+
+
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+        </section> <!-- end of section -->
+
+
+        <!-- contact section -->
+        <section class="section" id="contact">
+            <div class="container text-center">
+                <p class="section-subtitle">Let's Get In Touch!</p>
+                <h6 class="section-title mb-5">Contact Me</h6>
+                <!-- contact form -->
+                <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input type="email" class="form-control" placeholder="Enter Email" requried>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <textarea name="comment" id="comment" rows="6" class="form-control"
+                                placeholder="Write Something"></textarea>
+                        </div>
+                        <div class="form-group col-sm-12 mt-3">
+                            <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                        </div>
+                    </div>
+                </form><!-- end of contact form -->
+            </div><!-- end of container -->
+        </section><!-- end of contact section -->
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <a class="navbar-brand" href="#page-top"><img src="assets/imgs/footer-logo.png" alt="Logo"
+                    style="float:left;width: 200px; height: auto;" /></a>
+            <div class="container">
+
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Cheena's Portfolio 2023</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of page footer -->
+
+        <!-- core  -->
+        <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+        <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+        <!-- bootstrap 3 affix -->
+        <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+        <!-- Meyawo js -->
+        <script src="assets/js/meyawo.js"></script>
+
 </body>
-<!-- Footer-->
-<footer class="footer py-4">
-    <a class="navbar-brand" href="#page-top"><img src="assets/img/footer-logo.png" alt="Logo"
-            style="float:left;width: 200px; height: auto;" /></a>
-    <div class="container">
-
-        <div class="row align-items-center">
-            <div class="col-lg-4 text-lg-start">Copyright &copy; Cheena's Portfolio 2023</div>
-            <div class="col-lg-4 my-3 my-lg-0">
-            </div>
-            <div class="col-lg-4 text-lg-end">
-                <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </html>
